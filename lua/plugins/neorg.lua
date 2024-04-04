@@ -16,7 +16,16 @@ return {
             workspaces = {
               notes = "~/notes",
             },
+            default_workspace = "notes",
           },
+        },
+        ["core.export"] = {
+          config = {
+            export_dir = "~/Downloads/neorg",
+          },
+        },
+        ["core.clipboard"] = {
+          config = {},
         },
       },
     })
